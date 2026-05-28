@@ -21,7 +21,7 @@ Out of scope:
 
 ### 1. Create `items/<Abbreviation>.json`
 
-Use this template (every field is required; leave a string empty if it does not apply):
+Use this template (every field is required; leave a string empty if it does not apply). The full JSON Schema lives in [`schema.json`](schema.json) at the repo root and is enforced by CI:
 
 ```json
 {
