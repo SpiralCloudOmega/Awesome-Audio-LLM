@@ -92,7 +92,21 @@ for category in categories:
 
 # Generate README.md content
 readme_lines = []
-readme_lines.append("### 🌟🌟🌟 Find interesting work or want your work to be on-board? Raise an Issue or Pull Requests! :)")
+# ============== Platform-style hero ==============
+readme_lines.append("# 🎧 audio-ai-hub")
+readme_lines.append("")
+readme_lines.append("**The hub for audio AI research.** Curated papers, open models, benchmarks and datasets across audio LLMs · speech recognition · speech synthesis · music & audio generation.")
+readme_lines.append("")
+# Stats line, computed below after we know totals
+_total = len(model_cards)
+_n_cat = len(categories)
+_latest = max(card["Time"] for card in model_cards)
+readme_lines.append(f"`{_total} entries` · `{_n_cat} categories` · `latest: {_latest}`")
+readme_lines.append("")
+readme_lines.append("👉 **[Interactive site (search & filter)](https://binwang28.github.io/audio-ai-hub/)** · **[Contribute](CONTRIBUTING.md)** · **[Suggest a paper](https://github.com/BinWang28/audio-ai-hub/issues/new?template=add-paper.yml)**")
+readme_lines.append("")
+readme_lines.append("---")
+readme_lines.append("")
 # Contributors
 readme_lines.append("## Contributors")
 readme_lines.append("We thank the following contributors for their valuable contributions!")
@@ -107,7 +121,7 @@ readme_lines.append("[czwxian](https://github.com/czwxian), ")
 readme_lines.append("[marianasignal](https://github.com/marianasignal), ")
 readme_lines.append("and You!")
 
-readme_lines.append("[![Star History Chart](https://api.star-history.com/svg?repos=AudioLLMs/Awesome-Audio-LLM&type=Date)](https://star-history.com/#AudioLLMs/Awesome-Audio-LLM&Date)")
+readme_lines.append("[![Star History Chart](https://api.star-history.com/svg?repos=BinWang28/audio-ai-hub&type=Date)](https://star-history.com/#BinWang28/audio-ai-hub&Date)")
 
 
 
@@ -183,3 +197,19 @@ with open("README.md", "w") as readme_file:
 
 
 print("README.md has been generated.")
+
+# Emit docs/data.json for the static frontend (GitHub Pages).
+# Sorted by Time desc, then Abbreviation asc, so the rendered card grid is stable.
+os.makedirs('docs', exist_ok=True)
+sorted_cards = sorted(
+    model_cards,
+    key=lambda c: (datetime.strptime(c["Time"], "%Y-%m"), c.get("Abbreviation", "")),
+    reverse=False,
+)
+sorted_cards.sort(
+    key=lambda c: datetime.strptime(c["Time"], "%Y-%m"),
+    reverse=True,
+)
+with open('docs/data.json', 'w', encoding='utf-8') as out:
+    json.dump(sorted_cards, out, ensure_ascii=False, indent=2)
+print(f"docs/data.json written ({len(sorted_cards)} entries).")
