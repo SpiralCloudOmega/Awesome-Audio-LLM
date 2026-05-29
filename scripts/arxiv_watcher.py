@@ -23,6 +23,7 @@ import re
 import subprocess
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -89,6 +90,30 @@ def already_suggested_ids(repo: str) -> set[str]:
     return out
 
 
+def _arxiv_get(url: str, max_retries: int = 4) -> str:
+    """GET arxiv URL with exponential backoff on 429 / timeout / 5xx."""
+    delay = 5
+    last_exc = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            with urllib.request.urlopen(url, timeout=45) as r:
+                return r.read().decode("utf-8", errors="replace")
+        except urllib.error.HTTPError as e:
+            last_exc = e
+            if e.code == 429 or 500 <= e.code < 600:
+                print(f"  arxiv {e.code} on attempt {attempt}/{max_retries}; backing off {delay}s", file=sys.stderr)
+                time.sleep(delay)
+                delay = min(delay * 2, 90)
+                continue
+            raise
+        except Exception as e:
+            last_exc = e
+            print(f"  arxiv error '{e}' on attempt {attempt}/{max_retries}; backing off {delay}s", file=sys.stderr)
+            time.sleep(delay)
+            delay = min(delay * 2, 90)
+    raise last_exc if last_exc else RuntimeError("arxiv exhausted retries")
+
+
 def arxiv_query(category: str, since: datetime) -> list[dict]:
     """Fetch recent papers in `category` submitted on/after `since` (UTC)."""
     q = f"cat:{category}+AND+submittedDate:[{since.strftime('%Y%m%d')}0000+TO+999912312359]"
@@ -97,8 +122,7 @@ def arxiv_query(category: str, since: datetime) -> list[dict]:
         f"search_query={q}&start=0&max_results={MAX_RESULTS_PER_CATEGORY}"
         "&sortBy=submittedDate&sortOrder=descending"
     )
-    with urllib.request.urlopen(url, timeout=30) as r:
-        body = r.read().decode("utf-8", errors="replace")
+    body = _arxiv_get(url)
     root = ET.fromstring(body)
     rows = []
     for entry in root.findall("atom:entry", ARXIV_NS):
