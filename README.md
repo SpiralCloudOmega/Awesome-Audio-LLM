@@ -16,7 +16,7 @@ _Top 8 by GitHub stars — refreshed weekly by `.github/workflows/refresh-stars.
 
 | # | Project | Stars | What it does |
 |---|---------|-------|--------------|
-| 1 | **[Whisper](https://arxiv.org/abs/2212.04356)** | ⭐ 101k+ | Whisper is OpenAI's open-source speech recognition model trained on 680K hours of multilingual and multitask supervised data from the web. |
+| 1 | **[Whisper](https://arxiv.org/abs/2212.04356)** | ⭐ 102k+ | Whisper is OpenAI's open-source speech recognition model trained on 680K hours of multilingual and multitask supervised data from the web. |
 | 2 | **[MMS](https://arxiv.org/abs/2305.13516)** | ⭐ 32k+ | MMS (Massively Multilingual Speech) extends speech foundation models (wav2vec 2.0) to 1,107 languages for ASR and adds TTS and language i… |
 | 3 | **[MiniCPM-o](https://arxiv.org/abs/2604.27393)** | ⭐ 25k+ | MiniCPM-o 4.5 is OpenBMB's compact (8B-class) full-duplex omni-modal LLM supporting real-time vision, speech, and text interaction with l… |
 | 4 | **[MusicGen](https://arxiv.org/abs/2306.05284)** | ⭐ 23k+ | MusicGen is Meta's single-stage autoregressive transformer for controllable text-conditioned music generation, operating over discrete En… |
