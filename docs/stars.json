@@ -3,534 +3,534 @@
     "owner": "OFA-Sys",
     "repo": "AIR-Bench",
     "stars": 133,
-    "updated": "2026-07-13T05:34:29Z"
+    "updated": "2026-07-20T05:34:47Z"
   },
   "ASRCompare": {
     "owner": "xuyaoxun",
     "repo": "ASRCompare",
     "stars": 3,
-    "updated": "2026-07-13T05:34:29Z"
+    "updated": "2026-07-20T05:34:47Z"
   },
   "AVSR-Gen": {
     "owner": "chaufanglin",
     "repo": "mv2lrs3",
     "stars": 2,
-    "updated": "2026-07-13T05:34:30Z"
+    "updated": "2026-07-20T05:34:48Z"
   },
   "Audio Flamingo": {
     "owner": "NVIDIA",
     "repo": "audio-flamingo",
-    "stars": 1152,
-    "updated": "2026-07-13T05:34:32Z"
+    "stars": 1154,
+    "updated": "2026-07-20T05:34:49Z"
   },
   "Audio Flamingo 2": {
     "owner": "NVIDIA",
     "repo": "audio-flamingo",
-    "stars": 1152,
-    "updated": "2026-07-13T05:34:31Z"
+    "stars": 1154,
+    "updated": "2026-07-20T05:34:48Z"
   },
   "Audio Flamingo 3": {
     "owner": "NVIDIA",
     "repo": "audio-flamingo",
-    "stars": 1152,
-    "updated": "2026-07-13T05:34:31Z"
+    "stars": 1154,
+    "updated": "2026-07-20T05:34:49Z"
   },
   "Audio Hallucination": {
     "owner": "kuan2jiu99",
     "repo": "audio-hallucination",
     "stars": 34,
-    "updated": "2026-07-13T05:34:33Z"
+    "updated": "2026-07-20T05:34:50Z"
   },
   "Audio-FLAN": {
     "owner": "lmxue",
     "repo": "Audio-FLAN",
-    "stars": 162,
-    "updated": "2026-07-13T05:34:30Z"
+    "stars": 161,
+    "updated": "2026-07-20T05:34:48Z"
   },
   "Audio-Oscar": {
     "owner": "ziye26",
     "repo": "Audio-Oscar",
-    "stars": 52,
-    "updated": "2026-07-13T05:34:32Z"
+    "stars": 58,
+    "updated": "2026-07-20T05:34:49Z"
   },
   "Audio-Reasoner": {
     "owner": "xzf-thu",
     "repo": "Audio-Reasoner",
-    "stars": 295,
-    "updated": "2026-07-13T05:34:33Z"
+    "stars": 297,
+    "updated": "2026-07-20T05:34:50Z"
   },
   "AudioBERT": {
     "owner": "HJ-Ok",
     "repo": "AudioBERT",
     "stars": 40,
-    "updated": "2026-07-13T05:34:34Z"
+    "updated": "2026-07-20T05:34:51Z"
   },
   "AudioBench": {
     "owner": "AudioLLMs",
     "repo": "AudioBench",
-    "stars": 317,
-    "updated": "2026-07-13T05:34:34Z"
+    "stars": 319,
+    "updated": "2026-07-20T05:34:51Z"
   },
   "AudioEntailment": {
     "owner": "microsoft",
     "repo": "AudioEntailment",
     "stars": 17,
-    "updated": "2026-07-13T05:34:35Z"
+    "updated": "2026-07-20T05:34:51Z"
   },
   "AudioGPT": {
     "owner": "AIGC-Audio",
     "repo": "AudioGPT",
     "stars": 10169,
-    "updated": "2026-07-13T05:34:35Z"
+    "updated": "2026-07-20T05:34:52Z"
   },
   "AudioGen": {
     "owner": "facebookresearch",
     "repo": "audiocraft",
-    "stars": 23474,
-    "updated": "2026-07-13T05:34:36Z"
+    "stars": 23503,
+    "updated": "2026-07-20T05:34:52Z"
   },
   "AudioLDM 2": {
     "owner": "haoheliu",
     "repo": "AudioLDM2",
-    "stars": 2634,
-    "updated": "2026-07-13T05:34:36Z"
+    "stars": 2635,
+    "updated": "2026-07-20T05:34:52Z"
   },
   "CMI-Bench": {
     "owner": "nicolaus625",
     "repo": "CMI-bench",
     "stars": 18,
-    "updated": "2026-07-13T05:34:37Z"
+    "updated": "2026-07-20T05:34:53Z"
   },
   "CoDi-2": {
     "owner": "microsoft",
     "repo": "i-Code",
-    "stars": 1704,
-    "updated": "2026-07-13T05:34:37Z"
+    "stars": 1705,
+    "updated": "2026-07-20T05:34:53Z"
   },
   "CodecFake": {
     "owner": "roger-tseng",
     "repo": "CodecFake",
     "stars": 22,
-    "updated": "2026-07-13T05:34:38Z"
+    "updated": "2026-07-20T05:34:53Z"
   },
   "CogAudio-LLM": {
     "owner": "zxzhao0",
     "repo": "CogAudio-LLM",
     "stars": 4,
-    "updated": "2026-07-13T05:34:38Z"
+    "updated": "2026-07-20T05:34:54Z"
   },
   "CompA": {
     "owner": "Sreyan88",
     "repo": "CompA",
     "stars": 23,
-    "updated": "2026-07-13T05:34:39Z"
+    "updated": "2026-07-20T05:34:54Z"
   },
   "CosyVoice 2": {
     "owner": "FunAudioLLM",
     "repo": "CosyVoice",
-    "stars": 22122,
-    "updated": "2026-07-13T05:34:39Z"
+    "stars": 22278,
+    "updated": "2026-07-20T05:34:54Z"
   },
   "CosyVoice 3": {
     "owner": "FunAudioLLM",
     "repo": "CosyVoice",
-    "stars": 22122,
-    "updated": "2026-07-13T05:34:40Z"
+    "stars": 22278,
+    "updated": "2026-07-20T05:34:55Z"
   },
   "DAC": {
     "owner": "descriptinc",
     "repo": "descript-audio-codec",
-    "stars": 1836,
-    "updated": "2026-07-13T05:34:40Z"
+    "stars": 1839,
+    "updated": "2026-07-20T05:34:55Z"
   },
   "DIFFA": {
     "owner": "NKU-HLT",
     "repo": "DIFFA",
-    "stars": 82,
-    "updated": "2026-07-13T05:34:41Z"
+    "stars": 83,
+    "updated": "2026-07-20T05:34:56Z"
   },
   "DeSTA": {
     "owner": "kehanlu",
     "repo": "Nemo",
     "stars": 1,
-    "updated": "2026-07-13T05:34:41Z"
+    "updated": "2026-07-20T05:34:56Z"
   },
   "DeSTA2": {
     "owner": "kehanlu",
     "repo": "DeSTA2",
     "stars": 127,
-    "updated": "2026-07-13T05:34:42Z"
+    "updated": "2026-07-20T05:34:57Z"
   },
   "Dynamic-SUPERB": {
     "owner": "dynamic-superb",
     "repo": "dynamic-superb",
     "stars": 200,
-    "updated": "2026-07-13T05:34:43Z"
+    "updated": "2026-07-20T05:34:57Z"
   },
   "Dynamic-SUPERB Phase-2": {
     "owner": "dynamic-superb",
     "repo": "dynamic-superb",
     "stars": 200,
-    "updated": "2026-07-13T05:34:42Z"
+    "updated": "2026-07-20T05:34:57Z"
   },
   "EnCodec": {
     "owner": "facebookresearch",
     "repo": "encodec",
-    "stars": 3989,
-    "updated": "2026-07-13T05:34:43Z"
+    "stars": 3996,
+    "updated": "2026-07-20T05:34:58Z"
   },
   "F5-TTS": {
     "owner": "SWivid",
     "repo": "F5-TTS",
-    "stars": 14930,
-    "updated": "2026-07-13T05:34:44Z"
+    "stars": 14981,
+    "updated": "2026-07-20T05:34:58Z"
   },
   "FireRedTTS": {
     "owner": "FireRedTeam",
     "repo": "FireRedTTS",
     "stars": 908,
-    "updated": "2026-07-13T05:34:44Z"
+    "updated": "2026-07-20T05:34:58Z"
   },
   "Full-Duplex-Bench": {
     "owner": "DanielLin94144",
     "repo": "Full-Duplex-Bench",
-    "stars": 225,
-    "updated": "2026-07-13T05:34:45Z"
+    "stars": 235,
+    "updated": "2026-07-20T05:34:59Z"
   },
   "Fun-ASR-Nano": {
     "owner": "FunAudioLLM",
     "repo": "Fun-ASR",
-    "stars": 1386,
-    "updated": "2026-07-13T05:34:45Z"
+    "stars": 1410,
+    "updated": "2026-07-20T05:34:59Z"
   },
   "FunASR": {
     "owner": "modelscope",
     "repo": "FunASR",
-    "stars": 19184,
-    "updated": "2026-07-13T05:34:46Z"
+    "stars": 19342,
+    "updated": "2026-07-20T05:34:59Z"
   },
   "GAMA": {
     "owner": "Sreyan88",
     "repo": "GAMA",
     "stars": 153,
-    "updated": "2026-07-13T05:34:46Z"
+    "updated": "2026-07-20T05:35:00Z"
   },
   "GLM-4-Voice": {
     "owner": "THUDM",
     "repo": "GLM-4-Voice",
-    "stars": 3203,
-    "updated": "2026-07-13T05:34:47Z"
+    "stars": 3204,
+    "updated": "2026-07-20T05:35:00Z"
   },
   "IndexTTS": {
     "owner": "index-tts",
     "repo": "index-tts",
-    "stars": 21814,
-    "updated": "2026-07-13T05:34:47Z"
+    "stars": 21997,
+    "updated": "2026-07-20T05:35:01Z"
   },
   "Kimi-Audio": {
     "owner": "MoonshotAI",
     "repo": "Kimi-Audio",
-    "stars": 4668,
-    "updated": "2026-07-13T05:34:48Z"
+    "stars": 4677,
+    "updated": "2026-07-20T05:35:01Z"
   },
   "LLaMA-Omni": {
     "owner": "ictnlp",
     "repo": "llama-omni",
     "stars": 3140,
-    "updated": "2026-07-13T05:34:48Z"
+    "updated": "2026-07-20T05:35:01Z"
   },
   "LLaSM": {
     "owner": "LinkSoul-AI",
     "repo": "LLaSM",
     "stars": 561,
-    "updated": "2026-07-13T05:34:49Z"
+    "updated": "2026-07-20T05:35:02Z"
   },
   "LLaST": {
     "owner": "openaudiolab",
     "repo": "LLaST",
     "stars": 26,
-    "updated": "2026-07-13T05:34:49Z"
+    "updated": "2026-07-20T05:35:02Z"
   },
   "LTU-AS": {
     "owner": "YuanGongND",
     "repo": "ltu",
     "stars": 478,
-    "updated": "2026-07-13T05:34:50Z"
+    "updated": "2026-07-20T05:35:02Z"
   },
   "LUCY": {
     "owner": "VITA-MLLM",
     "repo": "LUCY",
-    "stars": 60,
-    "updated": "2026-07-13T05:35:11Z"
+    "stars": 61,
+    "updated": "2026-07-20T05:35:18Z"
   },
   "LibriSQA": {
     "owner": "ZihanZhaoSJTU",
     "repo": "LibriSQA",
     "stars": 39,
-    "updated": "2026-07-13T05:35:11Z"
+    "updated": "2026-07-20T05:35:18Z"
   },
   "MMAU": {
     "owner": "Sakshi113",
     "repo": "mmau",
-    "stars": 154,
-    "updated": "2026-07-13T05:34:50Z"
+    "stars": 156,
+    "updated": "2026-07-20T05:35:03Z"
   },
   "MMS": {
     "owner": "facebookresearch",
     "repo": "fairseq",
-    "stars": 32237,
-    "updated": "2026-07-13T05:34:50Z"
+    "stars": 32244,
+    "updated": "2026-07-20T05:35:03Z"
   },
   "Macaw-LLM": {
     "owner": "lyuchenyang",
     "repo": "Macaw-LLM",
-    "stars": 1589,
-    "updated": "2026-07-13T05:34:51Z"
+    "stars": 1588,
+    "updated": "2026-07-20T05:35:04Z"
   },
   "MaskGCT": {
     "owner": "open-mmlab",
     "repo": "Amphion",
-    "stars": 9929,
-    "updated": "2026-07-13T05:34:51Z"
+    "stars": 9958,
+    "updated": "2026-07-20T05:35:04Z"
   },
   "Mini-Omni": {
     "owner": "gpt-omni",
     "repo": "mini-omni",
     "stars": 3562,
-    "updated": "2026-07-13T05:34:52Z"
+    "updated": "2026-07-20T05:35:04Z"
   },
   "MiniCPM-o": {
     "owner": "OpenBMB",
     "repo": "MiniCPM-o",
-    "stars": 25865,
-    "updated": "2026-07-13T05:34:53Z"
+    "stars": 25936,
+    "updated": "2026-07-20T05:35:05Z"
   },
   "MooER": {
     "owner": "MooreThreads",
     "repo": "MooER",
-    "stars": 220,
-    "updated": "2026-07-13T05:34:53Z"
+    "stars": 219,
+    "updated": "2026-07-20T05:35:05Z"
   },
   "Moshi": {
     "owner": "kyutai-labs",
     "repo": "moshi",
-    "stars": 10568,
-    "updated": "2026-07-13T05:34:53Z"
+    "stars": 10623,
+    "updated": "2026-07-20T05:35:06Z"
   },
   "MuChoMusic": {
     "owner": "mulab-mir",
     "repo": "muchomusic",
     "stars": 46,
-    "updated": "2026-07-13T05:34:54Z"
+    "updated": "2026-07-20T05:35:06Z"
   },
   "MusiLingo": {
     "owner": "zihaod",
     "repo": "MusiLingo",
     "stars": 50,
-    "updated": "2026-07-13T05:34:54Z"
+    "updated": "2026-07-20T05:35:06Z"
   },
   "MusicGen": {
     "owner": "facebookresearch",
     "repo": "audiocraft",
-    "stars": 23474,
-    "updated": "2026-07-13T05:34:55Z"
+    "stars": 23503,
+    "updated": "2026-07-20T05:35:07Z"
   },
   "OSUM": {
     "owner": "ASLP-lab",
     "repo": "OSUM",
     "stars": 494,
-    "updated": "2026-07-13T05:34:55Z"
+    "updated": "2026-07-20T05:35:07Z"
   },
   "OpenS2S": {
     "owner": "CASIA-LM",
     "repo": "OpenS2S",
-    "stars": 118,
-    "updated": "2026-07-13T05:34:56Z"
+    "stars": 119,
+    "updated": "2026-07-20T05:35:07Z"
   },
   "PAL": {
     "owner": "ta012",
     "repo": "PAL-AudioLLM",
     "stars": 12,
-    "updated": "2026-07-13T05:34:56Z"
+    "updated": "2026-07-20T05:35:08Z"
   },
   "Pengi": {
     "owner": "microsoft",
     "repo": "Pengi",
     "stars": 322,
-    "updated": "2026-07-13T05:34:57Z"
+    "updated": "2026-07-20T05:35:08Z"
   },
   "Qwen-Audio": {
     "owner": "QwenLM",
     "repo": "Qwen-Audio",
-    "stars": 1906,
-    "updated": "2026-07-13T05:34:58Z"
+    "stars": 1913,
+    "updated": "2026-07-20T05:35:09Z"
   },
   "Qwen2-Audio": {
     "owner": "QwenLM",
     "repo": "Qwen2-Audio",
-    "stars": 2085,
-    "updated": "2026-07-13T05:34:58Z"
+    "stars": 2088,
+    "updated": "2026-07-20T05:35:09Z"
   },
   "Qwen2.5-Omni": {
     "owner": "QwenLM",
     "repo": "Qwen2.5-Omni",
-    "stars": 4035,
-    "updated": "2026-07-13T05:34:59Z"
+    "stars": 4039,
+    "updated": "2026-07-20T05:35:09Z"
   },
   "Qwen3-Omni": {
     "owner": "QwenLM",
     "repo": "Qwen3-Omni",
-    "stars": 3884,
-    "updated": "2026-07-13T05:34:59Z"
+    "stars": 3898,
+    "updated": "2026-07-20T05:35:10Z"
   },
   "SALMONN": {
     "owner": "bytedance",
     "repo": "SALMONN",
-    "stars": 1469,
-    "updated": "2026-07-13T05:35:00Z"
+    "stars": 1476,
+    "updated": "2026-07-20T05:35:10Z"
   },
   "SD-Eval": {
     "owner": "amphionspace",
     "repo": "SD-Eval",
     "stars": 57,
-    "updated": "2026-07-13T05:35:01Z"
+    "updated": "2026-07-20T05:35:11Z"
   },
   "SLAM-LLM": {
     "owner": "X-LANCE",
     "repo": "SLAM-LLM",
-    "stars": 1045,
-    "updated": "2026-07-13T05:35:01Z"
+    "stars": 1047,
+    "updated": "2026-07-20T05:35:11Z"
   },
   "SPIRIT LM": {
     "owner": "facebookresearch",
     "repo": "spiritlm",
-    "stars": 930,
-    "updated": "2026-07-13T05:35:02Z"
+    "stars": 928,
+    "updated": "2026-07-20T05:35:11Z"
   },
   "Sayna": {
     "owner": "SaynaAI",
     "repo": "sayna",
-    "stars": 181,
-    "updated": "2026-07-13T05:35:02Z"
+    "stars": 228,
+    "updated": "2026-07-20T05:35:12Z"
   },
   "SeamlessM4T": {
     "owner": "facebookresearch",
     "repo": "seamless_communication",
     "stars": 11814,
-    "updated": "2026-07-13T05:35:03Z"
+    "updated": "2026-07-20T05:35:12Z"
   },
   "SenseVoice": {
     "owner": "FunAudioLLM",
     "repo": "SenseVoice",
-    "stars": 8842,
-    "updated": "2026-07-13T05:35:03Z"
+    "stars": 8895,
+    "updated": "2026-07-20T05:35:13Z"
   },
   "SpeechGPT": {
     "owner": "0nutation",
     "repo": "SpeechGPT",
-    "stars": 1403,
-    "updated": "2026-07-13T05:35:03Z"
+    "stars": 1402,
+    "updated": "2026-07-20T05:35:13Z"
   },
   "SpokenWOZ": {
     "owner": "AlibabaResearch",
     "repo": "DAMO-ConvAI",
     "stars": 1568,
-    "updated": "2026-07-13T05:35:12Z"
+    "updated": "2026-07-20T05:35:19Z"
   },
   "Step-Audio": {
     "owner": "stepfun-ai",
     "repo": "Step-Audio",
-    "stars": 31,
-    "updated": "2026-07-13T05:35:04Z"
+    "stars": 34,
+    "updated": "2026-07-20T05:35:14Z"
   },
   "Step-Audio 2": {
     "owner": "stepfun-ai",
     "repo": "Step-Audio2",
-    "stars": 1476,
-    "updated": "2026-07-13T05:35:04Z"
+    "stars": 1483,
+    "updated": "2026-07-20T05:35:13Z"
   },
   "StyleTTS 2": {
     "owner": "yl4579",
     "repo": "StyleTTS2",
-    "stars": 6308,
-    "updated": "2026-07-13T05:35:05Z"
+    "stars": 6312,
+    "updated": "2026-07-20T05:35:14Z"
   },
   "TalkArena": {
     "owner": "SALT-NLP",
     "repo": "talk-arena",
     "stars": 4,
-    "updated": "2026-07-13T05:35:12Z"
+    "updated": "2026-07-20T05:35:19Z"
   },
   "Typhoon2-Audio": {
     "owner": "scb-10x",
     "repo": "typhoon2-audio",
     "stars": 36,
-    "updated": "2026-07-13T05:35:05Z"
+    "updated": "2026-07-20T05:35:14Z"
   },
   "UltraEval-Audio": {
     "owner": "OpenBMB",
     "repo": "UltraEval-Audio",
-    "stars": 305,
-    "updated": "2026-07-13T05:35:13Z"
+    "stars": 308,
+    "updated": "2026-07-20T05:35:20Z"
   },
   "Ultravox": {
     "owner": "fixie-ai",
     "repo": "ultravox",
-    "stars": 4475,
-    "updated": "2026-07-13T05:35:06Z"
+    "stars": 4476,
+    "updated": "2026-07-20T05:35:15Z"
   },
   "UniAudio": {
     "owner": "yangdongchao",
     "repo": "UniAudio",
     "stars": 606,
-    "updated": "2026-07-13T05:35:06Z"
+    "updated": "2026-07-20T05:35:15Z"
   },
   "VALL-E": {
     "owner": "microsoft",
     "repo": "unilm",
-    "stars": 22156,
-    "updated": "2026-07-13T05:35:07Z"
+    "stars": 22166,
+    "updated": "2026-07-20T05:35:15Z"
   },
   "VITA": {
     "owner": "VITA-MLLM",
     "repo": "VITA",
-    "stars": 2520,
-    "updated": "2026-07-13T05:35:07Z"
+    "stars": 2519,
+    "updated": "2026-07-20T05:35:16Z"
   },
   "VoiceBench": {
     "owner": "MatthewCYM",
     "repo": "VoiceBench",
     "stars": 378,
-    "updated": "2026-07-13T05:35:08Z"
+    "updated": "2026-07-20T05:35:16Z"
   },
   "VoiceJailbreak": {
     "owner": "TrustAIRLab",
     "repo": "VoiceJailbreakAttack",
     "stars": 38,
-    "updated": "2026-07-13T05:35:08Z"
+    "updated": "2026-07-20T05:35:16Z"
   },
   "VoxCPM2": {
     "owner": "OpenBMB",
     "repo": "VoxCPM",
-    "stars": 33215,
-    "updated": "2026-07-13T05:35:09Z"
+    "stars": 33816,
+    "updated": "2026-07-20T05:35:17Z"
   },
   "WavLLM": {
     "owner": "microsoft",
     "repo": "SpeechT5",
     "stars": 1447,
-    "updated": "2026-07-13T05:35:09Z"
+    "updated": "2026-07-20T05:35:17Z"
   },
   "Whisper": {
     "owner": "openai",
     "repo": "whisper",
-    "stars": 104830,
-    "updated": "2026-07-13T05:35:10Z"
+    "stars": 105267,
+    "updated": "2026-07-20T05:35:17Z"
   },
   "dots.tts": {
     "owner": "rednote-hilab",
     "repo": "dots.tts",
-    "stars": 878,
-    "updated": "2026-07-13T05:35:10Z"
+    "stars": 930,
+    "updated": "2026-07-20T05:35:18Z"
   }
 }
